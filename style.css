@@ -1,0 +1,241 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.home{
+    background-image: url(images/home_bg.png);
+}body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+}
+
+.container img {
+    padding-left: 50px;
+    width: 100px;
+    height: 45;
+}
+header{
+    height: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav.logo img{
+    padding-left: 1;
+    width: 14rem;
+}
+.login{
+    background: rgb(229,9,20);
+    margin: 50px;
+    padding: .4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav a{
+    display: flex;
+    justify-content: space-between;
+}
+nav select{
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#mail input{
+background-color:transparent ;
+border-radius: 5px;
+font-size: 20px;
+border: 1px solid white;
+padding: 10px 15px;
+}
+#mail button{
+    background-color: red;
+    border-radius: 5px;
+    font-size:20px ;
+    color: white;
+    padding: 10px 15px;
+
+}
+.home .container h1{
+     font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.secondpart h1{
+    color: white;
+    margin-left: 30px;
+}
+.secondpart .pictures {
+    
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.img{
+    border-radius: 5px;
+}
+.secondpart{
+    padding: 5px 10rem ;
+
+}
+.pictures h1{
+    display: flex;
+    position: relative;
+    right: 15rem;
+    top: 5rem;
+    -webkit-text-stroke: 1px white;
+    color: black;
+    font-size: 100px;
+    font-family: sans-serif;
+    
+}
+
+.third{
+    
+    color: white;
+}
+.third .class1 {
+  
+        background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+border-radius: 10px;
+    width: 15rem;
+    height: 15rem;padding-left: 5px;
+}
+.third .class2{
+           background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+
+    border-radius: 10px;
+   width: 15rem;
+    height: 15rem;padding-left: 5px;
+}
+.third .class3{
+            background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+border-radius: 10px;
+   width: 15rem;
+    height: 15rem;padding-left: 5px;
+}
+.third .class4{
+    padding-left: 5px;
+        background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+border-radius: 10px;
+   width: 15rem;
+    height: 15rem;
+}
+.third .maindiv{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10rem;
+    border-color: transparent;
+
+}
+.third .name3{
+    padding-left: 150px;
+}
+.third .maindiv img{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.four div{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(75,72,72,0.665);
+    color:white;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.four h2{
+    color: white;
+    margin-left: 150px;
+}
+.thirdlast h4{
+    color: white;
+padding-left: 500px;
+
+}
+.thirdlast input{
+background-color:transparent ;
+border-radius: 5px;
+font-size: 50px;
+border: 1px solid white;
+margin-left: 400px;
+color: white;
+
+}
+.thirdlast input::placeholder{
+font-size: 20px;
+}
+.thirdlast button{
+    background-color: red;
+    color: white;
+   padding:30px 30px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+}
+.last h3{
+    color: white;
+    padding-left: 150px;
+}
+.last ul{
+    
+color: white;
+
+
+list-style: none;
+}
+.last li{
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+.last select{
+    color: white;
+    border:white solid 1px;
+    background-color: transparent;
+     border-radius: 5px;
+     font-size: 20px;
+     margin-left: 150px;
+     padding:10px 10px;
+}
+.close {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
